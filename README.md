@@ -27,6 +27,16 @@ files header. This is indicated in the format as:
 Where /usr/local/bin/ is the intended directory for the script to be placed. and
 arrdvarks_resolve.ext is the file being currently read. 
 
+
+So far, the dependencies required for all the scripts to work coherently, is:
+  - ipset
+
+You can install ipset from your friendly neighborhood repositories with the
+command:
+
+    user@host:~$ sudo apt-get install ipset
+
+
 This repository will contain:
 
   - an initialization script for the core iptables script.
